@@ -1,0 +1,149 @@
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:stretch;
+    flex:auto;
+    
+    
+
+}
+.header {
+    flex-direction: column;
+}
+
+.header, .footer {
+    display:flex;
+    background: #1F2937;
+}
+
+.topbar {
+    display:flex;
+    justify-content: space-between;
+}
+
+.hero {
+    display:flex;
+}
+
+.footer{
+    font-size: small;
+    color:#F9FAF8;
+    justify-content: center;
+    align-items: center;
+    flex:auto;
+    
+    }
+
+.logo {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.herotext {
+    font-size:48px;
+    font-weight:900;
+    color:#F9FAF8;
+}
+
+.herosecond, a:link {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+ul {
+    display:flex;
+    list-style: none;
+    gap: 8px
+}
+
+a:link {
+    text-decoration: none;
+    }
+
+.title {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight:900;
+}
+
+
+button {
+    background:#3882F6;
+    color:white;
+    width:100px
+}
+
+.section1{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex:auto;
+    /*FPO*/background:#e75dc5;/*FPO*/
+}
+
+.boxes {
+    display:flex;
+    justify-content: center;
+    color:rgb(102, 101, 101);
+    font-size:12px;
+    gap:10px;
+    margin:50px;
+    
+    
+
+}
+
+.section2 {
+    display: flex;
+    background:#E5E7EB;
+    color:#1F2937;
+    flex:auto;
+    padding:30px
+    
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoteattr {
+    display:flex;
+    align-items: flex-end;
+}
+
+.section3 {
+    display:flex;
+    padding: 30px;
+    /*FPO*/background:#e75dc5;/*FPO*/
+    justify-content: center;
+    align-items: center;
+    flex:auto;    
+    }
+
+.bluecont {
+    display:flex;
+    background:#3882F6;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0);
+    border-radius:4px;    
+    width: 500px;
+    height:50px;    
+    padding:30px;
+    align-items: center;
+     
+    
+    }
+
+    .callcont {
+    display:flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    line-height: 15px;
+    overflow-wrap: break-word;   
+  
+    }
